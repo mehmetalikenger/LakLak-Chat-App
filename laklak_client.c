@@ -41,7 +41,7 @@ int main() {
     }
 
     // Server configurations
-    server_socket.sin_addr.s_addr = inet_addr("127.0.0.1");
+    server_socket.sin_addr.s_addr = inet_addr("127.0.0.1"); //Localhost
     server_socket.sin_family = AF_INET;
     server_socket.sin_port = htons(8080);
 
